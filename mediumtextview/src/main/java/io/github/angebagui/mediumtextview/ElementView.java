@@ -1,7 +1,9 @@
 package io.github.angebagui.mediumtextview;
 
 import android.content.Context;
+import android.support.annotation.Nullable;
 import android.util.AttributeSet;
+import android.view.View;
 import android.widget.LinearLayout;
 
 import org.jsoup.nodes.Element;
@@ -35,4 +37,5 @@ public abstract class ElementView extends LinearLayout{
     }
 
     public abstract void render();
+
 }

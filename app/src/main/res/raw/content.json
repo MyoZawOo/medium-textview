@@ -1,3 +1,5 @@
 {
-"content" : "<p>Une nouvelle vue differente de Webview et inspiré de l'application android de Medium</p>\n<p> Imaginez vous pouvez avec une seule vue afficher le content d'un article avec pour contenu en Html fourni par un CMS comme wordpress(du texte, des images, des videos etc) dans votre application Android</p>\n <img src=\"https://w-dog.net/wallpapers/5/8/393228595033836/elephant-animals-ears-tusks-trunk-africa-nature-grass-tree.jpg\"/> <p><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/IPD1uIbfGeo\" frameborder=\"0\" allowfullscreen></iframe></p> "
+
+  "content" : "<blockquote>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</blockquote>"
+
 }

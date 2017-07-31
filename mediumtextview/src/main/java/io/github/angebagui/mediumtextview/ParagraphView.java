@@ -1,6 +1,7 @@
 package io.github.angebagui.mediumtextview;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.util.AttributeSet;
 import android.util.Log;
@@ -32,8 +33,6 @@ public class ParagraphView extends ElementView{
         setOrientation(VERTICAL);
 
         if (getElement() != null){
-
-
             if(getElement().children().size()>0){
                 Utils.appendView(this,getElement().children());
             }
@@ -41,10 +40,7 @@ public class ParagraphView extends ElementView{
                 Log.d(TAG, "Text : "+getElement().text());
                 setText(getElement().text());
             }
-
-
         }
-
     }
 
     public void setText(String text){
@@ -54,14 +50,10 @@ public class ParagraphView extends ElementView{
                 LayoutParams.WRAP_CONTENT));
         textView.setText(text);
         textView.setPadding(Utils.dpToPx(getContext(),16),0,Utils.dpToPx(getContext(),16),0);
-
         final Typeface myTypeface = Typeface.createFromAsset(textView.getContext().getAssets(), "fonts/"+"freight_text_pro.ttf");
-
         textView.setTypeface(myTypeface,0);
         textView.setTextSize(18f);
-
         textView.setTextColor(getResources().getColor(android.R.color.black));
-
         addView(textView);
     }
 
